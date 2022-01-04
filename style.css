@@ -1,0 +1,75 @@
+body{
+     font-family: 'Ubuntu', sans-serif;
+     margin: 0;
+}
+.firs{
+     background-image: url(img/bg\ banner.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.first-section{
+     display: flex;
+
+}
+.logo img{
+     width: 120px;
+     height: 70px;
+     padding: 4px  600px 4px 4px ;
+
+}
+.menu{
+     font-size: 18px;
+     text-align: right;
+     font-weight: 900;
+   
+
+}
+ul li{
+     display: inline-block;
+     list-style: none;
+     padding:  10px;
+}
+a{
+     text-decoration: none;
+     color: #111844;
+
+}
+.second-section{
+     display: flex;
+   
+  
+}
+.hd-width{
+     width: 50%;
+}
+#hd-img{
+  padding: 40px  0px 0px 200px;
+  margin-bottom: 0px;
+  width: 300px;
+}
+#hd-text{
+     text-align: left;
+     padding: 60px 0px 20px 80px;
+     color: #111844;
+     font-weight: 600;
+     
+}
+#hd-text h1{
+     font-size: 60px;
+     font-weight: 600;
+     color: #111844;
+}
+#bellah{
+     color: #1e33bf;
+}
+button{
+     padding: 15px 40px;
+     border-radius: 5px;
+     border: none;
+     background-image: linear-gradient(to left,rgb(151, 226, 226), rgb(112, 112, 219));
+     box-shadow: 3px 3px 5px gray,-5px -3px 3px gray;
+     font-size: 20px;
+     font-weight: 600;
+     color: #111844;
+
+}
