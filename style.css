@@ -6,6 +6,7 @@ body{
      background-image: url(img/bg\ banner.jpg);
      background-repeat: no-repeat;
      background-size: cover;
+     margin-bottom: 100px;
 }
 .first-section{
      display: flex;
@@ -64,12 +65,47 @@ a{
 }
 button{
      padding: 15px 40px;
-     border-radius: 5px;
+     border-radius: 15px  0px;
      border: none;
-     background-image: linear-gradient(to left,rgb(151, 226, 226), rgb(112, 112, 219));
+     background-color: #26A7C6;
      box-shadow: 3px 3px 5px gray,-5px -3px 3px gray;
      font-size: 20px;
      font-weight: 600;
-     color: #111844;
+     color: whitesmoke;
 
+}
+
+
+
+
+.thirh-section{
+     margin-bottom: 100px;
+}
+
+.thirh-section h1{
+     font-size: 40px;
+     text-align: center;
+     margin-bottom: 100px;
+}
+.thirh-flex{
+     display: flex;
+}
+.thirth-div{
+   width: 50%;
+  
+}
+#thirth-img{
+     width: 45%;
+}
+#thirth-img img{
+     width: 80%;
+     height: 90%;
+     margin-left: 30px;
+     border: none;
+     border-radius: 10px;
+}
+#thirth-text{
+     width: 55%;
+     padding: 10px 15px 5px 10px;
+     text-align: justify;
 }
